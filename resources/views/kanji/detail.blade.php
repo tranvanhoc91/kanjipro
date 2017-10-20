@@ -243,7 +243,7 @@ background: #cccccc;
 									<div class="media-body">
 										<div>
 											<span class="kanji">箱</span>
-											<span class="kango">TỊCH</span>
+											<span class="kango">TICH</span>
 										</div>
 									</div>
 								</div>
@@ -341,9 +341,13 @@ background: #cccccc;
 
 
 
+
+
+
 <!--訓読み-->
 <section id="thin-headings" class="row">
 	<div class="text-muted float-xs-right info">
+		<span class="font-small-3" >直す「なおす」、直す「なおす」</span>
 		<button data-toggle="modal" data-target="#addKunyomiExample" type="button" class="btn btn-secondary" data-toggle="modal" 
 				data-placement="left" title="" data-original-title="Add new 述語">
 			<span class="icon-android-add"></span>
@@ -352,82 +356,62 @@ background: #cccccc;
 				data-placement="left" title="" data-original-title="Send comment to administrator">
 			<span class="icon-bullhorn"></span>
 		</button>
+		
 	</div>
 	<h2 id="chapter1" class="content-header-title">訓読</h2>
 	<hr>
     <div class="row match-height card-body collapse in">
-		<div class="col-sm-3 col-md-3"><!--col-->
-			<div class="card" >
-				<div class="card-header">
-					<h4 class="card-title">暑い [あつい]</h4>
-				</div>
-				<div class="card-body collapse in">
-					<div class="card-block">
-						<div class="media-list media-bordered">
-							<div class="">		
-								<div class="media-body">
-									<h4 class="media-heading"><i class="icon-aperture"></i>Mới mẻ, mới</h4>
-									<p class="clearfix"></p>
-									<div class="example">
-										<i class="icon-play"></i>
-										新しい車を買ったのに、もう壊れた。
-										<p class="example-vn">Vua moi mua chiec xe moi ma da hong roi</p>
-									</div>
-									<div class="example">
-										<i class="icon-play"></i>
-										新しい車を買ったのに、もう壊れた。
-										<p class="example-vn">Vua moi mua chiec xe moi ma da hong roi</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="heading-elements">
-							<ul class="list-inline mb-0 stroke-part">
-								<li><i class="icon-star"></i><a href="#" class="card-link">熱い</a></li>
-								<li><i class="icon-star"></i><a href="#" class="card-link">厚い</a></li>
-								<li><i class="icon-star"></i><a href="#" class="card-link">篤い篤い</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--col-->
-		<div class="col-sm-3 col-md-3"><!--col-->
-			<div class="card" >
-				<div class="card-header">
-					<h4 class="card-title">新しい [あたらしい]</h4>
-				</div>
-				<div class="card-body collapse in">
-					<div class="card-block">
-						<div class="media-list media-bordered">
-							<div class="">		
-								<div class="media-body">
-									<h4 class="media-heading"><i class="icon-aperture"></i>Mới mẻ, mới</h4>
-									<p class="clearfix"></p>
-									<div class="example">
-										<i class="icon-play"></i>
-										新しい車を買ったのに、もう壊れた。
-										<p class="example-vn">Vua moi mua chiec xe moi ma da hong roi</p>
-									</div>
-									<div class="example">
-										<i class="icon-play"></i>
-										新しい車を買ったのに、もう壊れた。
-										<p class="example-vn">Vua moi mua chiec xe moi ma da hong roi</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div><!--col-->
-		
+		<div class="col-sm-12 col-md-12"><!--col-->
+			<div id="accordionWrapa1" role="tablist" aria-multiselectable="true">
+    			<div class="card">
+    				<div>
+    					<div class="card-body">
+    						<div class="card-block">
+    							<div class="comment-box">
+    								<div class="comment-block">
+    									<span class="text-bold-700 text-xs-left info">直す</span><span class="font-small-3" >「なおす」：　</span>
+    									<span class="text-bold-700 font-small-3 type-info" >Sua chua, sua</span>
+    									<p class="mb-0 text-bold-500">親は木の上に立って自分の遊んでいる子供を見る</p>
+    									<footer class="blockquote-footer floatright">
+    										<cite title="Source Title">triegiathangさん</cite>
+    									</footer>
+    									<ul class="list-inline mb-1">
+    										<li class="pr-1"><a href="#" class="text-muted">6<span class="icon-point-up"></span></a></li>
+    										<li class="pr-1"><a href="#" class="text-muted">1<span class="icon-point-down"></span></a></li>
+    									</ul>
+    									<hr>
+    								</div>
+    								<div class="comment-block">
+    									<span class="text-bold-700 text-xs-left info">直す</span><span class="font-small-3" >「なおす」：　</span>
+    									<span class="text-bold-700 font-small-3 type-info" >Sua chua, sua</span>
+    									<p class="mb-0 text-bold-500">親は木の上に立って自分の遊んでいる子供を見る</p>
+    									<p class="mb-0 text-bold-100">Phu huynh dung tren cay nhin con cai choi</p>
+    									<footer class="blockquote-footer floatright">
+    										<cite title="Source Title">triegiathangさん</cite>
+    									</footer>
+    									<ul class="list-inline mb-1">
+    										<li class="pr-1"><a href="#" class="text-muted">6<span class="icon-point-up"></span></a></li>
+    										<li class="pr-1"><a href="#" class="text-muted">1<span class="icon-point-down"></span></a></li>
+    									</ul>
+    									<hr>
+    								</div>
+    								<div class="comment-block">
+    									<span class="text-bold-700 text-xs-left info">直す</span><span class="font-small-3" >「なおす」：　</span>
+    									<p class="mb-0 text-bold-100">Phu huynh dung tren cay nhin con cai choi</p>
+    									<footer class="blockquote-footer floatright">
+    										<cite title="Source Title">triegiathangさん</cite>
+    									</footer>
+    									<hr>
+    								</div>
+    							</div>
+    							
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
 	</div>
-	<div class="continue"><a href="" >もっと見る </a></div>
 </section>
-
-
-
 
 <!--述語-->
 <section id="thin-headings" class="row">
@@ -450,7 +434,7 @@ background: #cccccc;
 		<div class="col-sm-3 col-md-3">
 			<div class="card">
 				<div class="card-header">
-					<h4 class="card-title">TUYET HOA DIEU</h4>
+					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
 					<div class="heading-elements">
 						<a data-toggle="modal" data-target="#addTagForm" 　id="add-tag" class="btn btn-lg">
 						<span class="icon-android-add"></span>
@@ -479,7 +463,7 @@ background: #cccccc;
 		<div class="col-sm-3 col-md-3">
 			<div class="card">
 				<div class="card-header">
-					<h4 class="card-title">TUYET HOA DIEU</h4>
+					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
 					<div class="heading-elements">
 						<a data-toggle="modal" data-target="#addTagForm"　id="add-tag" class="btn btn-lg">
 						<span class="icon-android-add"></span>
