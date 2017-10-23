@@ -112,6 +112,16 @@ background: #cccccc;
 }
 
 
+.no-bg{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.seemore{
+    text-align: right;
+}
+
 </style>
 
 
@@ -215,7 +225,7 @@ background: #cccccc;
 												<div class="form-body">
 													<div class="form-group">
 														<a data-toggle="collapse" data-parent="#accordionWrapa1" href="#accordion3" aria-expanded="false" aria-controls="accordion3">コメント欄</a>
-														<a class="text-muted" data-toggle="tooltip" class="btn btn-secondary" data-placement="right" title="" data-original-title="Send comment to admin">
+														<a class="text-muted"  data-toggle="modal" data-target="#send-report" class="btn btn-secondary" data-placement="right" title="" >
 															<span class="float-md-right d-xs-block d-md-inline-block icon-bullhorn"> 
 														</a>
 													</div>
@@ -347,24 +357,33 @@ background: #cccccc;
 <!--訓読み-->
 <section id="thin-headings" class="row">
 	<div class="text-muted float-xs-right info">
-		<span class="font-small-3" >直す「なおす」、直す「なおす」</span>
-		<button data-toggle="modal" data-target="#addKunyomiExample" type="button" class="btn btn-secondary" data-toggle="modal" 
-				data-placement="left" title="" data-original-title="Add new 述語">
-			<span class="icon-android-add"></span>
-		</button>
-		<button type="button" class="btn btn-secondary" data-toggle="tooltip" 
+		<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#send-report" 
 				data-placement="left" title="" data-original-title="Send comment to administrator">
 			<span class="icon-bullhorn"></span>
 		</button>
-		
 	</div>
 	<h2 id="chapter1" class="content-header-title">訓読</h2>
 	<hr>
     <div class="row match-height card-body collapse in">
-		<div class="col-sm-12 col-md-12"><!--col-->
+		<div class="col-sm-12 col-md-8"><!--col-->
 			<div id="accordionWrapa1" role="tablist" aria-multiselectable="true">
     			<div class="card">
     				<div>
+    					<div class="card-header">
+                            <h4 class="card-title primary">訓読み：　<small class="text-muted">なおす、なおる</small></h4>
+                            <div class="heading-elements">
+                                <ul class="list-inline mb-0">
+                                    <li>
+                                    	<a data-toggle="modal" data-target="#send-report" type="button" class="btn btn-secondary" data-toggle="modal" data-placement="left" title="" data-original-title="Add new 述語">
+                                    	<i class="icon-android-add"></i></a>
+                                    </li>
+                                    <li>
+                                    	<a data-toggle="modal" data-target="#send-report" type="button" class="btn btn-secondary" data-toggle="modal" data-placement="left" title="" data-original-title="Add new 述語">
+                                    	<i class="icon-bullhorn"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
     					<div class="card-body">
     						<div class="card-block">
     							<div class="comment-box">
@@ -372,6 +391,34 @@ background: #cccccc;
     									<span class="text-bold-700 text-xs-left info">直す</span><span class="font-small-3" >「なおす」：　</span>
     									<span class="text-bold-700 font-small-3 type-info" >Sua chua, sua</span>
     									<p class="mb-0 text-bold-500">親は木の上に立って自分の遊んでいる子供を見る</p>
+    									<footer class="blockquote-footer floatright">
+    										<cite title="Source Title">triegiathangさん</cite>
+    									</footer>
+    									<ul class="list-inline mb-1">
+    										<li class="pr-1"><a href="#" class="text-muted">6<span class="icon-point-up"></span></a></li>
+    										<li class="pr-1"><a href="#" class="text-muted">1<span class="icon-point-down"></span></a></li>
+    									</ul>
+    									<hr>
+    								</div>
+    								<div class="comment-block">
+    									<span class="text-bold-700 text-xs-left info">直す</span><span class="font-small-3" >「なおす」：　</span>
+    									<span class="text-bold-700 font-small-3 type-info" >Sua chua, sua</span>
+    									<p class="mb-0 text-bold-500">親は木の上に立って自分の遊んでいる子供を見る</p>
+    									<p class="mb-0 text-bold-100">Phu huynh dung tren cay nhin con cai choi</p>
+    									<footer class="blockquote-footer floatright">
+    										<cite title="Source Title">triegiathangさん</cite>
+    									</footer>
+    									<ul class="list-inline mb-1">
+    										<li class="pr-1"><a href="#" class="text-muted">6<span class="icon-point-up"></span></a></li>
+    										<li class="pr-1"><a href="#" class="text-muted">1<span class="icon-point-down"></span></a></li>
+    									</ul>
+    									<hr>
+    								</div>
+    								<div class="comment-block">
+    									<span class="text-bold-700 text-xs-left info">直す</span><span class="font-small-3" >「なおす」：　</span>
+    									<span class="text-bold-700 font-small-3 type-info" >Sua chua, sua</span>
+    									<p class="mb-0 text-bold-500">親は木の上に立って自分の遊んでいる子供を見る</p>
+    									<p class="mb-0 text-bold-100">Phu huynh dung tren cay nhin con cai choi</p>
     									<footer class="blockquote-footer floatright">
     										<cite title="Source Title">triegiathangさん</cite>
     									</footer>
@@ -410,7 +457,65 @@ background: #cccccc;
     				</div>
     			</div>
     		</div>
-	</div>
+		</div>
+		<div class="col-xl-4 col-lg-12">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">関連語</h4>
+					<div class="heading-elements">
+                        <ul class="list-inline mb-0">
+                            <li>
+                            	<a data-toggle="modal" data-target="#addKunyomiExample" type="button" class="btn btn-secondary" data-toggle="modal" data-placement="left" title="" data-original-title="Add new 述語">
+                            	<i class="icon-android-add"></i></a>
+                            </li>
+                            <li>
+                            	<a data-toggle="modal" data-target="#send-report" type="button" class="btn btn-secondary" data-toggle="modal" data-placement="left" title="" data-original-title="Add new 述語">
+                            	<i class="icon-bullhorn"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+				</div>
+				<div class="card-body">
+					<div class="card-block">
+						<div class="nav-vertical">
+							<ul class="nav nav-tabs nav-right" style="height: 102px;">
+								<li class="nav-item">
+									<a class="nav-link" id="baseVerticalRight-tab1" data-toggle="tab" aria-controls="tabVerticalRight1" href="#tabVerticalRight1" aria-expanded="false">近義</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" id="baseVerticalRight-tab2" data-toggle="tab" aria-controls="tabVerticalRight2" href="#tabVerticalRight2" aria-expanded="false">対義</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" id="baseVerticalRight-tab3" data-toggle="tab" aria-controls="tabVerticalRight3" href="#tabVerticalRight3" aria-expanded="true">同義</a>
+								</li>
+							</ul>
+							<div class="tab-content px-1">
+								<div role="tabpanel" class="tab-pane" id="tabVerticalRight1" aria-expanded="false" aria-labelledby="baseVerticalRight-tab1">
+									<p class="icon-folder-o"><span class="text-bold-700" > Từ đồng nghĩa của 直る</span></p>
+        							<ul class="list-style-square">
+                                        <li><a href="" >絶</a>、 <a href="" >治る</a>、  <a href="" >直る</a></li>
+                                    </ul>
+								</div>
+								<div class="tab-pane" id="tabVerticalRight2" aria-labelledby="baseVerticalRight-tab2" aria-expanded="false">
+									<p class="icon-folder-o"><span class="text-bold-700" > Từ đồng nghĩa của 直る</span></p>
+        							<ul class="list-style-square">
+                                        <li><a href="" >訴える</a>、 <a href="" >与える</a>、  <a href="" >支える</a></li>
+                                    </ul>
+								</div>
+								<div class="tab-pane active" id="tabVerticalRight3" aria-labelledby="baseVerticalRight-tab3" aria-expanded="true">
+									<p class="icon-folder-o"><span class="text-bold-700" > Từ đồng nghĩa của 直る</span></p>
+        							<ul class="list-style-square">
+                                        <li><a href="" >絶</a></li>
+                                        <li><a href="" >治る</a></li>
+                                        <li><a href="" >直る</a></li>
+                                    </ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </section>
 
 <!--述語-->
@@ -422,7 +527,7 @@ background: #cccccc;
 				data-placement="left" title="" data-original-title="Add new 述語">
 			<span class="icon-android-add"></span>
 		</button>
-		<button type="button" class="btn btn-secondary" data-toggle="tooltip" 
+		<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#send-report"
 				data-placement="left" title="" data-original-title="Send comment to administrator">
 			<span class="icon-bullhorn"></span>
 		</button>
@@ -437,6 +542,36 @@ background: #cccccc;
 					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
 					<div class="heading-elements">
 						<a data-toggle="modal" data-target="#addTagForm" 　id="add-tag" class="btn btn-lg">
+						<span class="icon-android-add"></span>
+						</a>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="card-block">
+						<p class="kanji-word" ><a class="kanji-word" href="{{asset('word/detail/')}}"> 絶好調</a></p>
+						<p class="kanji-yomikata">ぜっこうちょう</p>
+					</div>
+					<div class="card-block">
+						<p class="kanji-remember">例文：　親は木の上に立って自分の遊んでいる子供を見る</p>
+						<div class="heading-elements">
+							<ul class="list-inline mb-0 stroke-part">
+								<li><i class="icon-star"></i><a href="#" class="card-link">絶</a></li>
+								<li><i class="icon-star"></i><a href="#" class="card-link">好</a></li>
+								<li><i class="icon-star"></i><a href="#" class="card-link">調</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- //card kanji-->
+		
+		<!--card kanji-->
+		<div class="col-sm-3 col-md-3">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
+					<div class="heading-elements">
+						<a data-toggle="modal" data-target="#addTagForm"　id="add-tag" class="btn btn-lg">
 						<span class="icon-android-add"></span>
 						</a>
 					</div>
@@ -489,9 +624,139 @@ background: #cccccc;
 			</div>
 		</div><!-- //card kanji-->
 		<!--card kanji-->
+		<div class="col-sm-3 col-md-3">
+			<div class="card">
+				<div class="card-header">
+					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
+					<div class="heading-elements">
+						<a data-toggle="modal" data-target="#addTagForm"　id="add-tag" class="btn btn-lg">
+						<span class="icon-android-add"></span>
+						</a>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="card-block">
+						<p class="kanji-word" ><a class="kanji-word" href="{{asset('word/detail/')}}"> 絶好調</a></p>
+						<p class="kanji-yomikata">ぜっこうちょう</p>
+					</div>
+					<div class="card-block">
+						<p class="kanji-remember">例文：　親は木の上に立って自分の遊んでいる子供を見る</p>
+						<div class="heading-elements">
+							<ul class="list-inline mb-0 stroke-part">
+								<li><i class="icon-star"></i><a href="#" class="card-link">絶</a></li>
+								<li><i class="icon-star"></i><a href="#" class="card-link">好</a></li>
+								<li><i class="icon-star"></i><a href="#" class="card-link">調</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- //card kanji-->
+		
 	</div>
-	<div class="continue"><a href="" >もっと見る </a></div>
+	
+	<!-- see more -->
+	<div id="display-headings" class="card no-bg">
+        <div class="card-body collapse" aria-expanded="false">
+            <div class="row match-height">
+        		<!--card kanji-->
+        		<div class="col-sm-3 col-md-3">
+        			<div class="card">
+        				<div class="card-header">
+        					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
+        					<div class="heading-elements">
+        						<a data-toggle="modal" data-target="#addTagForm" 　id="add-tag" class="btn btn-lg">
+        						<span class="icon-android-add"></span>
+        						</a>
+        					</div>
+        				</div>
+        				<div class="card-body">
+        					<div class="card-block">
+        						<p class="kanji-word" ><a class="kanji-word" href="{{asset('word/detail/')}}"> 絶好調</a></p>
+        						<p class="kanji-yomikata">ぜっこうちょう</p>
+        					</div>
+        					<div class="card-block">
+        						<p class="kanji-remember">例文：　親は木の上に立って自分の遊んでいる子供を見る</p>
+        						<div class="heading-elements">
+        							<ul class="list-inline mb-0 stroke-part">
+        								<li><i class="icon-star"></i><a href="#" class="card-link">絶</a></li>
+        								<li><i class="icon-star"></i><a href="#" class="card-link">好</a></li>
+        								<li><i class="icon-star"></i><a href="#" class="card-link">調</a></li>
+        							</ul>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div><!-- //card kanji-->
+        		<!--card kanji-->
+        		<div class="col-sm-3 col-md-3">
+        			<div class="card">
+        				<div class="card-header">
+        					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
+        					<div class="heading-elements">
+        						<a data-toggle="modal" data-target="#addTagForm" 　id="add-tag" class="btn btn-lg">
+        						<span class="icon-android-add"></span>
+        						</a>
+        					</div>
+        				</div>
+        				<div class="card-body">
+        					<div class="card-block">
+        						<p class="kanji-word" ><a class="kanji-word" href="{{asset('word/detail/')}}"> 絶好調</a></p>
+        						<p class="kanji-yomikata">ぜっこうちょう</p>
+        					</div>
+        					<div class="card-block">
+        						<p class="kanji-remember">例文：　親は木の上に立って自分の遊んでいる子供を見る</p>
+        						<div class="heading-elements">
+        							<ul class="list-inline mb-0 stroke-part">
+        								<li><i class="icon-star"></i><a href="#" class="card-link">絶</a></li>
+        								<li><i class="icon-star"></i><a href="#" class="card-link">好</a></li>
+        								<li><i class="icon-star"></i><a href="#" class="card-link">調</a></li>
+        							</ul>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div><!-- //card kanji-->
+        		<!--card kanji-->
+        		<div class="col-sm-3 col-md-3">
+        			<div class="card">
+        				<div class="card-header">
+        					<h4 class="card-title">TUYỆT HẢO ĐIỀU</h4>
+        					<div class="heading-elements">
+        						<a data-toggle="modal" data-target="#addTagForm" 　id="add-tag" class="btn btn-lg">
+        						<span class="icon-android-add"></span>
+        						</a>
+        					</div>
+        				</div>
+        				<div class="card-body">
+        					<div class="card-block">
+        						<p class="kanji-word" ><a class="kanji-word" href="{{asset('word/detail/')}}"> 絶好調</a></p>
+        						<p class="kanji-yomikata">ぜっこうちょう</p>
+        					</div>
+        					<div class="card-block">
+        						<p class="kanji-remember">例文：　親は木の上に立って自分の遊んでいる子供を見る</p>
+        						<div class="heading-elements">
+        							<ul class="list-inline mb-0 stroke-part">
+        								<li><i class="icon-star"></i><a href="#" class="card-link">絶</a></li>
+        								<li><i class="icon-star"></i><a href="#" class="card-link">好</a></li>
+        								<li><i class="icon-star"></i><a href="#" class="card-link">調</a></li>
+        							</ul>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div><!-- //card kanji-->
+    		</div>
+        </div>
+        <div class="seemore">
+    		<a data-action="collapse"><i class="icon-plus4"><span class="see-more text-primary">もっと見る</span></i></a>
+        </div>
+	</div>
+	<!-- ///see more -->
 </section>
+
+
+
 
 
 
@@ -499,12 +764,12 @@ background: #cccccc;
 <!--似ている他の漢字-->
 <section id="thin-headings" class="row">
 	<div class="text-muted float-xs-right info">
-		<button type="button" class="btn btn-secondary" data-toggle="tooltip" 
+		<button type="button" class="btn btn-secondary"  data-toggle="modal" data-target="#send-report"
 		data-placement="left" title="" data-original-title="Add new 述語">
 		<span class="icon-android-add"></span>
 		</button>
-		<button type="button" class="btn btn-secondary" data-toggle="tooltip" 
-			data-placement="left" title="" data-original-title="Send comment to administrator">
+		<button type="button" class="btn btn-secondary"  data-toggle="modal" data-target="#send-report"
+			data-placement="left" title="" >
 		<span class="icon-bullhorn"></span>
 		</button>
 	</div>
@@ -736,6 +1001,31 @@ background: #cccccc;
 
 
 
+<!--Modal Send report -->
+<div class="modal fade text-xs-left" id="send-report" tabindex="-1" role="dialog" aria-labelledby="myModalLabel33" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+				<label class="modal-title text-text-bold-600" id="myModalLabel33">レポートフォーム</label>
+			</div>
+			<form action="#">
+		  	  <div class="modal-body">
+				<label>報告内容: </label>
+				<textarea id="donationinput7" rows="5" class="form-control square" name="comments" placeholder="comments"></textarea>
+			  </div>
+			  <div class="modal-footer">
+				<input type="reset" class="btn btn-outline-secondary btn-lg" data-dismiss="modal" value="キャンセル">
+				<input type="submit" class="btn btn-outline-primary btn-lg" value="送信">
+			  </div>
+			</form>
+		</div>
+	</div>
+</div><!--///Modal Send report -->
+									
+									
 <!--/ //////////////////////////End Modal popup/////////////////////////-->
 
 
