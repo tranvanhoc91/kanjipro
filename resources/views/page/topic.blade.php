@@ -28,7 +28,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -42,7 +42,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -56,7 +56,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -70,7 +70,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -84,7 +84,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -98,7 +98,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -112,7 +112,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -126,7 +126,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -147,7 +147,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -161,7 +161,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -175,7 +175,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -189,7 +189,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -203,7 +203,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -217,7 +217,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -238,7 +238,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -252,7 +252,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -266,7 +266,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -280,7 +280,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">太陽に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -294,7 +294,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>
@@ -308,7 +308,7 @@
 											<span class="text-info">１２０用語 </span><i class="icon-star"></i>
 										</div>
 									</div>
-									<a href="bookmark/002/"><pre class=" language-markup">月に関する漢字一覧</pre></a>
+									<a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">月に関する漢字一覧</pre></a>
 								</div>
 							</div>
 						</div>

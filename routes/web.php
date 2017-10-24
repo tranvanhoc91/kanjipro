@@ -15,7 +15,7 @@
 
 //////////////////////Test//////////////////////////////////
 
-Route::get('admin/test/savedata', function (){
+/* Route::get('admin/test/savedata', function (){
 	$menu = new App\Menu();
 	$menu->title = "menu test 1";
 	$menu->parent_id = "2";
@@ -23,7 +23,7 @@ Route::get('admin/test/savedata', function (){
 	$menu->save();
 	echo "inserted data successlly";
 });
-
+ */
 
 Route::get('admin/test/getcategories', function (){
 	echo 'get categories';
@@ -36,9 +36,8 @@ Route::get('login', "UserController@getLogin");
 Route::get('register', "UserController@getRegister");
 Route::get('recoverpwd', "UserController@getRecoverPassword");
 
-Route::get('/', function () {
-    return view('index');
-});
+
+Route::get('/','IndexController@getIndexRound');
 
 
 //Pages

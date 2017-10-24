@@ -81,7 +81,7 @@ class KanjisController extends Controller{
      */
     public function destroy($id)
     {
-        //
+        
     }
 
 
@@ -89,10 +89,12 @@ class KanjisController extends Controller{
     public function getGridCard(){
         return view('kanji.gridcard');
     }
+    
 
     public function getKanjiDetail(){
         return view('kanji.detail');
     }
+    
 
 
 

@@ -44,7 +44,7 @@
                                 </button>
                             </div>
                         </div>
-                        <a href="tag/20/"><strong>耳から覚える・語彙・N1・１－４９</strong>    </a>
+                        <a href="{{asset('kanji/gridcard/')}}"><strong>耳から覚える・語彙・N1・１－４９</strong>    </a>
                         <midium> &nbsp;&nbsp;&nbsp;  120用語   </midium>
                     </div>
                 </div>    
@@ -74,7 +74,7 @@
                                 </button>
                             </div>
                         </div>
-                        <a href="tag/20/"><strong>耳から覚える・語彙・N1・１－４９</strong>    </a>
+                        <a href="{{asset('kanji/gridcard/')}}"><strong>耳から覚える・語彙・N1・１－４９</strong>    </a>
                         <midium> &nbsp;&nbsp;&nbsp;  120用語   </midium>
                     </div>
                 </div>    
@@ -94,7 +94,7 @@
                                 </button>
                             </div>
                         </div>
-                        <a href="tag/20/"><strong>耳から覚える・語彙・N1・１－４９</strong>    </a>
+                        <a href="{{asset('kanji/gridcard/')}}"><strong>耳から覚える・語彙・N1・１－４９</strong>    </a>
                         <midium> &nbsp;&nbsp;&nbsp;  120用語   </midium>
                     </div>
                 </div>    

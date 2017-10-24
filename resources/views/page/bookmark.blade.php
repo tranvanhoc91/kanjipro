@@ -39,7 +39,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">部首一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">部首一覧</pre></a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">音読一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">音読一覧</pre></a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">画数一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">画数一覧</pre></a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N1</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N1</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -100,7 +100,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N2</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N2</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -108,7 +108,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N3</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N3</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -116,7 +116,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N4</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N4</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -124,7 +124,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N5</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N5</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -132,7 +132,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT一覧</pre></a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N1</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N1</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -157,7 +157,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N2</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N2</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -165,7 +165,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N3</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N3</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -173,7 +173,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N4</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N4</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -181,7 +181,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N5</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N5</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -189,7 +189,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT一覧</pre></a>
                         </div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">部首一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">部首一覧</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -214,7 +214,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">部首一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">部首一覧</pre></a>
                         </div>
                     </div>
                 </div>
@@ -231,7 +231,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N1</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N1</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -239,7 +239,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N2</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N2</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -247,7 +247,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N3</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N3</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -255,7 +255,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N4</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N4</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -263,7 +263,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT N5</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT N5</pre></a>
                         </div>
                         <div class="form-group">
                             <div class="prism-show-language">
@@ -271,7 +271,7 @@
                                     <span class="text-info">１２０用語 </span><i class="icon-star"></i>
                                 </div>
                             </div>
-                            <a href="bookmark/002/"><pre class=" language-markup">JLPT一覧</pre></a>
+                            <a href="{{asset('kanji/gridcard/')}}"><pre class=" language-markup">JLPT一覧</pre></a>
                         </div>
                     </div>
                 </div>

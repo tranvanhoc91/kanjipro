@@ -15,28 +15,28 @@
 	<hr>
     <div class="row">
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
            	<img class="img-thumbnail img-fluid level-logo level-logo" src="{{ URL::to('template/assets/images/gallery/school/elementary-1.PNG') }}" alt="小学校１年生の漢字帳">
            </a>
         </figure>
         
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
            	<img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/elementary-2.PNG') }}" alt="小学校１年生の漢字帳">
            </a>
         </figure>
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
               <img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/elementary-3.PNG') }}" alt="小学校１年生の漢字帳">
            </a>
         </figure>
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
               <img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/elementary-4.PNG') }}"" alt="小学校１年生の漢字帳">
            </a>
         </figure>
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
              <img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/elementary-5.PNG') }}"" alt="小学校１年生の漢字帳">
            </a>
         </figure>
@@ -50,18 +50,18 @@
 	<hr>
     <div class="row">
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
            	<img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/secondary-1.png') }}" alt="中学校１年生の漢字帳">
            </a>
         </figure>
         
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
            	<img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/secondary-2.png') }}" alt="中学校１年生の漢字帳">
            </a>
         </figure>
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
               <img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/secondary-3.png') }}" alt="中学校１年生の漢字帳">
            </a>
         </figure>
@@ -74,18 +74,18 @@
 	<hr>
     <div class="row">
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
            	<img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/highschool-1.png') }}" alt="高学校１年生の漢字帳">
            </a>
         </figure>
         
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
            	<img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/highschool-2.png') }}" alt="高学校１年生の漢字帳">
            </a>
         </figure>
         <figure class="col-lg-3 col-md-6 col-xs-12" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">
-           <a href="{{asset('kanji/school/elementary/1/')}}"　itemprop="contentUrl" data-size="480x360">
+           <a href="{{asset('kanji/gridcard/')}}"　itemprop="contentUrl" data-size="480x360">
            	<img class="img-thumbnail img-fluid level-logo" src="{{ URL::to('template/assets/images/gallery/school/highschool-3.png') }}" alt="高学校１年生の漢字帳">
            </a>
         </figure>

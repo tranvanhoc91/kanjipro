@@ -3,11 +3,6 @@
   <head>
     @yield('title')
      @include('includes.header')
-
-     
-     
-
-     
   </head>
   <body data-open="click" data-menu="vertical-menu" data-col="2-columns" 
         class="vertical-layout vertical-menu 2-columns  fixed-navbar">
@@ -23,6 +18,7 @@
       <div class="content-wrapper">
         <!--body content-->
         @yield('content')
+        
         <!--//body content-->
       </div>
     </div>
@@ -30,10 +26,5 @@
     <!---footer-->
     @include('layout.footer')
     <!---footer-->
-
-
-    <!--include file script -- >
-    @include('includes.footer')
-    <!--///include file script -- >
   </body>
 </html>
