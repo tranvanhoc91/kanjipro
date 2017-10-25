@@ -15,21 +15,6 @@
 
 //////////////////////Test//////////////////////////////////
 
-/* Route::get('admin/test/savedata', function (){
-	$menu = new App\Menu();
-	$menu->title = "menu test 1";
-	$menu->parent_id = "2";
-	
-	$menu->save();
-	echo "inserted data successlly";
-});
- */
-
-Route::get('admin/test/getcategories', function (){
-	echo 'get categories';
-});
-
-
 
 //////////////////////For font end//////////////////////////////////
 Route::get('login', "UserController@getLogin");
@@ -51,6 +36,8 @@ Route::group(['prefix'=>'page/'],function (){
 	Route::get('school/','PagesController@getGridCardBySchool');
 	Route::get('bookmark/','PagesController@getGridCardByBookmark');
 	Route::get('tag/','PagesController@getGridCardByTag');
+	
+	Route::get('download/','Intl@getDownloadPage');
 });
 
 //kanji
@@ -75,6 +62,12 @@ Route::group(['prefix'=>'detail/'],function (){
 
 
 
+
+Route::group(['prefix'=>'intl/'],function (){
+    Route::get('download/','Intl@getDownloadPage');
+});
+        
+        
 
 
 
