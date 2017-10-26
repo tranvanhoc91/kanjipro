@@ -64,7 +64,7 @@ Route::group(['prefix'=>'detail/'],function (){
 
 
 Route::group(['prefix'=>'intl/'],function (){
-    Route::get('download/','Intl@getDownloadPage');
+    Route::get('download/','IntlController@getDownloadPage');
 });
         
         

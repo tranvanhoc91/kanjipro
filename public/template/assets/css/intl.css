@@ -1,0 +1,9 @@
+.download-content  {
+    text-align: center;
+}
+
+.download-content .download-image {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 50px;
+}
