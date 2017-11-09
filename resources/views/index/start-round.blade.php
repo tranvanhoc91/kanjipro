@@ -41,8 +41,7 @@
       <!-- Introduction Row -->
       <h1 class="my-4">2136漢字をマスターしましょう！!
       </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, explicabo dolores ipsam aliquam inventore corrupti eveniet quisquam quod totam laudantium repudiandae obcaecati ea consectetur debitis velit facere nisi expedita vel?</p>
-
+      <p>このサイトの特徴をご紹介いたします！</p>
       <!-- Team Members Row -->
       <div class="row">
         <div class="col-lg-12">
@@ -50,45 +49,45 @@
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
           <a href="{{asset('page/radical/')}}">
-          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/stroke.png') }}" alt=""></a>
-          <h3>部首<small>一覧</small></h3>
-          <p>部首から漢字を検索</p>
+          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/bushu.jpg') }}" alt=""></a>
+          <h4>部首<small>一覧</small></h4>
+          <p　 class="text-muted"><small>部首から漢字を検索</small></p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
           <a href="{{asset('page/onyomi/')}}">
           	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/onyomi.png') }}" alt=""></a>
-          <h3>音読<small>一覧</small></h3>
-          <p>音読みから漢字を検索</p>
+          <h4>音読<small>一覧</small></h4>
+          <p　 class="text-muted"><small>音読から漢字を検索</small></p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <a href="{{asset('page/radical/')}}">
-          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/stroke.png') }}" alt=""></a>
-          <h3>部首<small>一覧</small></h3>
-          <p>部首から漢字を検索</p>
+          <a href="{{asset('page/kakusu/')}}">
+          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/kakusu.jpg') }}" alt=""></a>
+          <h4>画数<small>一覧</small></h4>
+          <p　 class="text-muted"><small>画数から漢字を検索</small></p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <a href="{{asset('page/radical/')}}">
-          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/stroke.png') }}" alt=""></a>
-          <h3>部首<small>一覧</small></h3>
-          <p>部首から漢字を検索</p>
+          <a href="{{asset('page/jlpt/')}}">
+          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/jlpt.jpg') }}" alt=""></a>
+          <h4>JLPT試験<small>一覧</small></h4>
+          <p　 class="text-muted"><small>JLPTレベルから漢字を検索</small></p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <a href="{{asset('page/radical/')}}">
-          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/stroke.png') }}" alt=""></a>
-          <h3>部首<small>一覧</small></h3>
-          <p>部首から漢字を検索</p>
+          <a href="{{asset('page/school/')}}">
+          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/nengaku.jpg') }}" alt=""></a>
+          <h4>年学<small>一覧</small></h4>
+          <p　 class="text-muted"><small>年学から漢字を検索</small></p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <a href="{{asset('page/radical/')}}">
-          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/stroke.png') }}" alt=""></a>
-          <h3>部首<small>一覧</small></h3>
-          <p>部首から漢字を検索</p>
+          <a href="{{asset('page/kanken/')}}">
+          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/kanken.jpg') }}" alt=""></a>
+          <h4>漢検<small>一覧</small></h4>
+          <p　 class="text-muted"><small>漢字検定から漢字を検索</small></p>
         </div>
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-          <a href="{{asset('page/radical/')}}">
-          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/stroke.png') }}" alt=""></a>
-          <h3>部首<small>一覧</small></h3>
-          <p>部首から漢字を検索</p>
+          <a href="{{asset('page/topic/')}}">
+          	<img class="rounded-circle img-fluid d-block mx-auto" src="{{ URL::to('template/homepage/assets/images/icon/wadai.jpg') }}" alt=""></a>
+          <h4>話題<small>一覧</small></h4>
+          <p　 class="text-muted"><small>話題から漢字を検索</small></p>
         </div>
         
       </div>
