@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,12 +10,10 @@
 |
 */
 
-
-
-//////////////////////Test//////////////////////////////////
-
-
 //////////////////////For font end//////////////////////////////////
+
+use Illuminate\Support\Facades\Route;
+
 Route::get('login', "UserController@getLogin");
 Route::get('register', "UserController@getRegister");
 Route::get('recoverpwd', "UserController@getRecoverPassword");
@@ -69,6 +66,15 @@ Route::group(['prefix'=>'intl/'],function (){
         
         
 
+
+//For user pages
+Route::group(['prefix'=>'user/'],function (){
+    Route::get('login/','UserController@login');
+    Route::get('login/','UserController@login');
+    Route::get('login/','UserController@login');
+});
+        
+    
 
 
 

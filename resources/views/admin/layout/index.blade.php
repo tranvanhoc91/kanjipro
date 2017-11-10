@@ -26,9 +26,5 @@
     @include('admin.layout.footer')
     <!---footer-->
 
-
-    <!--include file script -- >
-    @include('includes.footer')
-    <!--///include file script -- >
   </body>
 </html>
