@@ -56,7 +56,7 @@
 			</div>
 			<div class="card-body collapse in">	
 				<div class="card-block">
-					<form class="form-horizontal form-simple" action="index.html" novalidate>
+					<form class="form-horizontal form-simple" action="{{asset('user/doRegister/')}}" novalidate>
 						<fieldset class="form-group position-relative has-icon-left mb-1">
 							<input type="text" class="form-control form-control-lg input-lg" id="user-name" placeholder="ユーザー名">
 							<div class="form-control-position">

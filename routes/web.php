@@ -67,14 +67,22 @@ Route::group(['prefix'=>'intl/'],function (){
         
 
 
+  
+
 //For user pages
 Route::group(['prefix'=>'user/'],function (){
-    Route::get('login/','UserController@login');
-    Route::get('login/','UserController@login');
-    Route::get('login/','UserController@login');
-});
-        
+    Route::get('login/', 'UserController@showLogin');
+    Route::post('doLogin/', 'UserController@doLogin');
+    Route::post('logout/', 'UserController@logout');
     
+    Route::get('register', 'UserController@showRegister');
+    Route::post('doRegister/', 'UserController@doRegister');
+});
+
+
+    
+Route::get('login/', 'Auth\LoginController@showLogin');
+Route::post('login/', 'Auth\LoginController@login');
 
 
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
@@ -36,4 +37,14 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+    
+    public function showLogin(){
+        // show the form
+        return view("user.login"); //goi den view login.blade.php
+    }
+    
+    public function login(Request $request){
+        return view("this is processing login page"); //goi den view login.blade.php
+    }
+    
 }
